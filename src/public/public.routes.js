@@ -43,7 +43,7 @@ function routeConfig ($stateProvider) {
     })
     .state('public.myinfo', {
       url: '/myinfo',
-      templateUrl: 'src/public/myinfo/myinfo.html',
+      templateUrl: 'src/public/myInfo/myInfo.html',
       controller: 'MyInfoController',
       controllerAs: 'myInfoCtrl',
       resolve: {
@@ -59,7 +59,7 @@ function routeConfig ($stateProvider) {
     })
     .state('public.signup', {
       url: '/signup',
-      templateUrl: 'src/public/signup/signup.html',
+      templateUrl: 'src/public/signUp/signup.html',
       controller: 'SignupController',
       controllerAs: 'signupCtrl'
     });
