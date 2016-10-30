@@ -11,7 +11,7 @@
   <label for="description">Item Description: </label> {{myInfoCtrl.myinfo.selectedMenu.description}}<br>
   <label for="image"></label> <img width="250" height="150" ng-src="{{myInfoCtrl.apipath}}/images/{{myInfoCtrl.myinfo.selectedMenu.short_name}}.jpg" alt="{{myInfoCtrl.myinfo.selectedMenu.short_name}}"><br>
 </div>
-<div style="height:500px;" ng-if="!myInfoCtrl.myinfo.firstname" class="container">
+<div style="height:450px;" ng-if="!myInfoCtrl.myinfo.firstname" class="container">
 </br>
   Not Signed Up Yet.<a ui-sref="public.signup"> Sign up Now!</a>
 </div>
